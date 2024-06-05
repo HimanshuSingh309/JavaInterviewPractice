@@ -19,7 +19,7 @@ public class RedBus {
 		this.availableSeats = availableSeats;
 		this.seatPrice = seatPrice;
 	}
-
+	// public layer
 	public String getBusId() {
 		return busId;
 	}
@@ -42,6 +42,7 @@ public class RedBus {
 	public double getseatPrice() {
 		return seatPrice;
 	}
+	// public methods to book tickets
 	
 	public void bookTickets(int ticketsToBeBooked, String departureCity, String arrivalCity) {
 		if(departureCity.equalsIgnoreCase(this.departureCity) && arrivalCity.equalsIgnoreCase(this.arrivalCity)) {
